@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.homepage-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #586f7c;
+  position: relative;
+}
+
+.homepage-container .intro-message {
+  color: #d3d0cb;
+  width: 40%;
+  height: 30%;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+.homepage-container .intro-message h1 {
+  font-size: 4rem;
+  margin-bottom: 0.4rem;
+}
+
+.homepage-container .intro-message h3 {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
