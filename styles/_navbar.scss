@@ -1,6 +1,7 @@
 .navbar {
   background-color: $primary-color;
   height: 8rem;
+  position: relative;
 
   ul {
     list-style: none;
@@ -11,8 +12,9 @@
   }
 
   .profile {
-    padding-left: 4rem;
-    padding-top: 1rem;
+    position: absolute;
+    left: 5%;
+    top: 20%;
   }
 
   img {
@@ -23,11 +25,9 @@
   .left-side {
     display: flex;
     justify-content: flex-end;
-    width: 50%;
     font-size: 3rem;
     position: absolute;
     top: 1em;
     right: 8rem;
-    
   }
 }
