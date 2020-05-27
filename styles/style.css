@@ -26,8 +26,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   width: 50%;
   font-size: 3rem;
   position: absolute;
@@ -47,8 +47,8 @@
 .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr) [4];
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px;
 }
 
@@ -56,20 +56,19 @@
   height: 210px;
   background-size: cover;
   background-attachment: fixed;
-  font-size: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 4rem;
   font-weight: 700;
 }
@@ -129,11 +128,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 1.5rem;
 }
 
@@ -156,8 +155,8 @@
 .main-container .images {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: (1fr) [2];
+  grid-template-columns: repeat(2, 1fr);
   width: 90%;
   height: 18.7rem;
   border-radius: 14px;
@@ -165,15 +164,15 @@
   left: 5%;
   background-color: #344966;
   margin-bottom: 2.5rem;
-  -webkit-box-shadow: 0px 0px 8px 3px #393e41;
-  box-shadow: 0px 0px 8px 3px #393e41;
+  -webkit-box-shadow: 0 0 8px 3px #393e41;
+  box-shadow: 0 0 8px 3px #393e41;
 }
 
 .main-container .images:nth-of-type(1) img {
   width: 50%;
   height: 18.7rem;
   -webkit-animation: image_animation 2.2s ease-in-out;
-          animation: image_animation 2.2s ease-in-out;
+  animation: image_animation 2.2s ease-in-out;
 }
 
 .main-container .images:nth-of-type(1) p {
@@ -184,7 +183,7 @@
   width: 50%;
   height: 18.7rem;
   -webkit-animation: image_animation 2.4s ease-in-out;
-          animation: image_animation 2.4s ease-in-out;
+  animation: image_animation 2.4s ease-in-out;
 }
 
 .main-container .images:nth-of-type(2) p {
@@ -195,7 +194,7 @@
   width: 50%;
   height: 18.7rem;
   -webkit-animation: image_animation 2.6s ease-in-out;
-          animation: image_animation 2.6s ease-in-out;
+  animation: image_animation 2.6s ease-in-out;
 }
 
 .main-container .images:nth-of-type(3) p {
@@ -206,7 +205,7 @@
   width: 50%;
   height: 18.7rem;
   -webkit-animation: image_animation 2.8s ease-in-out;
-          animation: image_animation 2.8s ease-in-out;
+  animation: image_animation 2.8s ease-in-out;
 }
 
 .main-container .images:nth-of-type(4) p {
@@ -232,22 +231,24 @@
 @-webkit-keyframes image_animation {
   0% {
     -webkit-transform: scale(0.4);
-            transform: scale(0.4);
+    transform: scale(0.4);
   }
+
   100% {
     -webkit-transform: rotate(0) scale(1);
-            transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
   }
 }
 
 @keyframes image_animation {
   0% {
     -webkit-transform: scale(0.4);
-            transform: scale(0.4);
+    transform: scale(0.4);
   }
+
   100% {
     -webkit-transform: rotate(0) scale(1);
-            transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
   }
 }
 
@@ -266,8 +267,8 @@
   list-style: none;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: (1fr) [2];
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .skills ul .heading {
@@ -289,12 +290,12 @@
 .skills ul i {
   position: absolute;
   left: 52rem;
-  margin-top: .6rem;
+  margin-top: 0.6rem;
 }
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-size: 62.5%;
@@ -304,4 +305,3 @@
 body {
   background-color: #586f7c;
 }
-/*# sourceMappingURL=style.css.map */
