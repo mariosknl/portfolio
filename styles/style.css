@@ -1,12 +1,3 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
-}
-
 .navbar {
   background-color: #586f7c;
   height: 8rem;
@@ -44,8 +35,16 @@
   right: 8rem;
 }
 
+.main {
+  padding-top: 2rem;
+}
+
+.main h3 {
+  text-align: center;
+  font-size: 4rem;
+}
+
 .container {
-  background-color: #586f7c;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
@@ -143,7 +142,166 @@
 }
 
 .container .bg2 {
-  background-image: url(../pics/ryan-moreno-w1_4YH5IhDg-unsplash.jpg);
+  background-image: url(../pics/mitchell-luo-i1O_Hr6cbWc-unsplash.jpg);
   color: #d3d0cb;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding-top: 2rem;
+}
+
+.main-container .images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  height: 18.7rem;
+  border-radius: 14px;
+  position: relative;
+  left: 5%;
+  background-color: #344966;
+  margin-bottom: 2.5rem;
+  -webkit-box-shadow: 0px 0px 8px 3px #393e41;
+  box-shadow: 0px 0px 8px 3px #393e41;
+}
+
+.main-container .images:nth-of-type(1) img {
+  width: 50%;
+  height: 18.7rem;
+  -webkit-animation: image_animation 2.2s ease-in-out;
+          animation: image_animation 2.2s ease-in-out;
+}
+
+.main-container .images:nth-of-type(1) p {
+  right: 14%;
+}
+
+.main-container .images:nth-of-type(2) img {
+  width: 50%;
+  height: 18.7rem;
+  -webkit-animation: image_animation 2.4s ease-in-out;
+          animation: image_animation 2.4s ease-in-out;
+}
+
+.main-container .images:nth-of-type(2) p {
+  right: 11%;
+}
+
+.main-container .images:nth-of-type(3) img {
+  width: 50%;
+  height: 18.7rem;
+  -webkit-animation: image_animation 2.6s ease-in-out;
+          animation: image_animation 2.6s ease-in-out;
+}
+
+.main-container .images:nth-of-type(3) p {
+  right: 12%;
+}
+
+.main-container .images:nth-of-type(4) img {
+  width: 50%;
+  height: 18.7rem;
+  -webkit-animation: image_animation 2.8s ease-in-out;
+          animation: image_animation 2.8s ease-in-out;
+}
+
+.main-container .images:nth-of-type(4) p {
+  right: 2%;
+}
+
+.main-container .images img {
+  width: 50%;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+.main-container .images a {
+  color: #000;
+}
+
+.main-container .images p {
+  font-size: 3rem;
+  position: absolute;
+  top: 40%;
+}
+
+@-webkit-keyframes image_animation {
+  0% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+  }
+}
+
+@keyframes image_animation {
+  0% {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+  }
+}
+
+.skills {
+  position: absolute;
+  left: 5%;
+  width: 90%;
+}
+
+.skills h3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.skills ul {
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.skills ul .heading {
+  font-size: 2rem;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  margin-bottom: 2rem;
+}
+
+.skills ul .li-text {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.skills ul i {
+  position: absolute;
+  left: 52rem;
+  margin-top: .6rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #586f7c;
 }
 /*# sourceMappingURL=style.css.map */

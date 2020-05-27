@@ -1,0 +1,33 @@
+.navbar {
+  background-color: $primary-color;
+  height: 8rem;
+
+  ul {
+    list-style: none;
+
+    li {
+      padding-left: 5rem;
+    }
+  }
+
+  .profile {
+    padding-left: 4rem;
+    padding-top: 1rem;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 8rem;
+  }
+
+  .left-side {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    font-size: 3rem;
+    position: absolute;
+    top: 1em;
+    right: 8rem;
+    
+  }
+}
