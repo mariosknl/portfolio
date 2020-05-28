@@ -1,8 +1,12 @@
 @keyframes image_animation{
 0%{
-    transform: scale(0.4);
+    transform: scale(0.8);
     }
+50%{
+    transform: scale(1.1);
+}
 100%{
     transform: rotate(0) scale(1);
     }
 }
+
