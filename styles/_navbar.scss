@@ -1,13 +1,15 @@
 .navbar {
   background-color: $primary-color;
-  height: 8rem;
+  height: 6rem;
   position: relative;
 
   ul {
     list-style: none;
 
-    li {
+    li a {
       padding-left: 5rem;
+      text-decoration: none;
+      color: #000;
     }
   }
 
@@ -22,12 +24,12 @@
     width: 8rem;
   }
 
-  .left-side {
+  .right-side {
     display: flex;
     justify-content: flex-end;
-    font-size: 3rem;
+    font-size: 4.5rem;
     position: absolute;
-    top: 1em;
+    top: 0.3em;
     right: 8rem;
   }
 }
