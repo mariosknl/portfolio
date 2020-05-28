@@ -21,6 +21,16 @@
     > div {
       &:nth-of-type(1) {
         font-size: 3.5rem;
+        padding-left: 2rem;
+      }
+
+      &:nth-of-type(4) {
+        h3 {
+        font-size: 2.5rem;
+        }
+        i {
+          font-size: 2.5rem;
+        }
       }
     }
   }
@@ -45,15 +55,16 @@
       height: 8vh;
 
       i {
-        font-size: 3rem;
-        padding-left: 1.5rem;
+        font-size: 2.3rem;
+        left: 150%;
       }
     }
 
     h3 {
-      width: 50%;
+      width: 40%;
       font-size: 1rem;
       padding-right: 0.5rem;
+      padding-top: 0.8rem;
     }
   }
 }

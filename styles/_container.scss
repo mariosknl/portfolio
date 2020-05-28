@@ -29,6 +29,11 @@
 
     &:nth-of-type(4) {
       grid-column: 3/5;
+
+      h3 {
+        text-decoration: underline;
+        font-size: 4rem;
+      }
     }
 
     &:nth-of-type(6) {
@@ -49,12 +54,16 @@
       }
     }
 
-    i {
-      font-size: 5rem;
+    ul {
+      width: 80%;
+      list-style: none;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 1.5rem;
+      justify-content: space-evenly;
+    
+      i {
+        font-size: 5rem;
+        
+      }
     }
   }
 
