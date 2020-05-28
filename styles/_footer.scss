@@ -3,7 +3,6 @@ footer {
   height: 10vh;
   background-color: $card-color;
 
-
   ul {
     width: 100%;
     display: flex;
@@ -15,10 +14,17 @@ footer {
     a {
       color: $text-color;
     }
-    
+
     i {
       font-size: 4rem;
       height: auto;
     }
+  }
+
+  h3 {
+    font-size: 1.4rem;
+    position: relative;
+    left: 2rem;
+    
   }
 }

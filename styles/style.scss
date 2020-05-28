@@ -1,6 +1,7 @@
 $primary-color: #586f7c;
 $text-color: #d3d0cb;
 $card-color: #344966;
+
 @import 'navbar';
 @import 'main';
 @import 'container';
@@ -26,9 +27,3 @@ a {
 body {
   background-color: $primary-color;
 }
-
-
-
-
-
-

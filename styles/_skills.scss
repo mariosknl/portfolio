@@ -2,33 +2,34 @@
   position: relative;
   left: 5%;
   width: 90%;
-  
+
 
   h3 {
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
+
   ul {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 
-  .heading {
-    font-size: 2rem;
-    grid-column: 1/2;
-    margin-bottom: 2rem;
-  }
+    .heading {
+      font-size: 2rem;
+      grid-column: 1/2;
+      margin-bottom: 2rem;
+    }
 
-  .li-text {
-    grid-column: 2/3;
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-  }
+    .li-text {
+      grid-column: 2/3;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
 
-  i {
-    position: absolute;
-    left: 48%;
-    margin-top: .6rem;
-  }
+    i {
+      position: absolute;
+      left: 48%;
+      margin-top: 0.6rem;
+    }
   }
 }

@@ -47,7 +47,6 @@
         background-color: $primary-color;
         border-radius: 5px;
       }
-      
     }
 
     i {
@@ -59,12 +58,12 @@
     }
   }
 
-    .bg1 {
-      background-image: url(../pics/augustine-wong-DRF3Nu-1wNE-unsplash.jpg);
-    }
-    
-    .bg2 {
-      background-image: url(../pics/mitchell-luo-i1O_Hr6cbWc-unsplash.jpg);
-      color: $text-color;
-    }
+  .bg1 {
+    background-image: url(../pics/augustine-wong-DRF3Nu-1wNE-unsplash.jpg);
+  }
+
+  .bg2 {
+    background-image: url(../pics/mitchell-luo-i1O_Hr6cbWc-unsplash.jpg);
+    color: $text-color;
+  }
 }

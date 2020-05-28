@@ -167,8 +167,8 @@ main h3 {
   left: 5%;
   background-color: #344966;
   margin-bottom: 2.5rem;
-  -webkit-box-shadow: 0px 0px 9px 3px #393e41;
-  box-shadow: 0px 0px 9px 3px #393e41;
+  -webkit-box-shadow: 0 0 9px 3px #393e41;
+  box-shadow: 0 0 9px 3px #393e41;
 }
 
 .main-container .images img {
@@ -279,7 +279,7 @@ main h3 {
 .skills ul i {
   position: absolute;
   left: 48%;
-  margin-top: .6rem;
+  margin-top: 0.6rem;
 }
 
 footer {
@@ -310,6 +310,12 @@ footer ul a {
 footer ul i {
   font-size: 4rem;
   height: auto;
+}
+
+footer h3 {
+  font-size: 1.4rem;
+  position: relative;
+  left: 2rem;
 }
 
 @media screen and (max-width: 768px) {
