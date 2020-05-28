@@ -50,6 +50,7 @@ main h3 {
 }
 
 .container {
+  width: 105%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
