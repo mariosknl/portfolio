@@ -35,6 +35,9 @@
         text-decoration: underline;
         font-size: 4rem;
       }
+      i {
+        font-size: 3rem;
+      }
     }
 
     &:nth-of-type(6) {
@@ -54,17 +57,6 @@
         border-radius: 5px;
       }
     }
-
-    ul {
-      width: 80%;
-      list-style: none;
-      display: flex;
-      justify-content: space-evenly;
-    
-      i {
-        font-size: 5rem;
-        
-      }
     }
   }
 
