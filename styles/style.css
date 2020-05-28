@@ -311,16 +311,16 @@ footer ul a {
 }
 
 footer ul i {
-  font-size: 7rem;
+  font-size: 6rem;
   position: relative;
   bottom: 1.2rem;
-  left: 8rem;
+  left: 5rem;
 }
 
 footer ul h3 {
   font-size: 2rem;
   position: relative;
-  left: 10%;
+  left: 7%;
   bottom: 1.2rem;
 }
 
@@ -343,6 +343,10 @@ footer ul h3 {
     width: 10rem;
     height: 11rem;
   }
+  .container {
+    width: 120%;
+    left: 10%;
+  }
   .container > div {
     height: 180px;
   }
@@ -355,6 +359,9 @@ footer ul h3 {
   }
   .container > div:nth-of-type(4) i {
     font-size: 5.5rem;
+  }
+  .main-container {
+    left: 10%;
   }
   .main-container .images img {
     width: 70%;

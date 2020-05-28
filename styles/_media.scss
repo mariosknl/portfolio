@@ -25,6 +25,8 @@
   }
 
   .container {
+    width: 120%;
+    left: 10%;
     > div {
       height: 180px;
       &:nth-of-type(1) {
@@ -44,6 +46,7 @@
   }
 
   .main-container {
+    left: 10%;
     .images {
       img {
         width: 70%;
@@ -137,16 +140,16 @@
 
   footer {
     ul {
-    i {
-      font-size: 3rem;
-      margin-right: 1rem;
-    }
-  
-    h3 {
-      font-size: 1.5rem;
-      margin-left: 2rem;
-    }
-  }  
+      i {
+        font-size: 3rem;
+        margin-right: 1rem;
+      }
+    
+      h3 {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+      }
+    }  
   }
 }
 
