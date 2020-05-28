@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #6B7A85;
+  background-color: #39444C;
   height: 6rem;
   position: relative;
 }
@@ -144,7 +144,7 @@ main h3 {
 
 .container > div:nth-of-type(9) mark {
   font-size: 2.5rem;
-  background-color: #6B7A85;
+  background-color: #39444C;
   border-radius: 5px;
 }
 
@@ -173,7 +173,7 @@ main h3 {
   border-radius: 14px;
   position: relative;
   left: 5%;
-  background-color: #344966;
+  background-color: #324D67;
   margin-bottom: 2.5rem;
   -webkit-box-shadow: 0 0 9px 3px #393e41;
   box-shadow: 0 0 9px 3px #393e41;
@@ -287,7 +287,7 @@ main h3 {
 footer {
   width: 105%;
   height: 10vh;
-  background-color: #344966;
+  background-color: #324D67;
 }
 
 footer ul {
@@ -438,6 +438,6 @@ a {
 }
 
 body {
-  background-color: #6B7A85;
+  background-color: #39444C;
 }
 /*# sourceMappingURL=style.css.map */
