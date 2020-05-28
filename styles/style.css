@@ -22,8 +22,8 @@
 
 .navbar img {
   border-radius: 50%;
-  width: 10rem;
-  height: 11rem;
+  width: 13rem;
+  height: 15rem;
 }
 
 .navbar .right-side {
@@ -332,11 +332,15 @@ footer ul h3 {
   }
   .navbar .profile {
     width: 1.5rem;
-    height: 2.5rem;
+    height: 3.5rem;
   }
   .navbar .right-side {
-    bottom: 2.5rem;
-    right: 4rem;
+    bottom: 3rem;
+    right: 1.5rem;
+  }
+  .navbar .profile img {
+    width: 10rem;
+    height: 11rem;
   }
   .container > div:nth-of-type(1) {
     font-size: 3.5rem;
@@ -356,16 +360,16 @@ footer ul h3 {
   }
   footer ul {
     width: 90%;
-    height: 8vh;
+    height: 10vh;
   }
   footer ul i {
     font-size: 2.3rem;
     left: 150%;
   }
   footer h3 {
-    width: 40%;
+    width: 20%;
     font-size: 1rem;
-    padding-right: 0.5rem;
+    padding-right: 0.2rem;
     padding-top: 0.8rem;
   }
 }

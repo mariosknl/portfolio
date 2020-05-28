@@ -8,12 +8,19 @@
     
     .profile {
       width: 1.5rem;
-      height: 2.5rem;
+      height: 3.5rem;
     }
 
     .right-side {
-      bottom: 2.5rem;
-      right: 4rem;
+      bottom: 3rem;
+      right: 1.5rem;
+    }
+
+    .profile {
+      img{
+        width: 10rem;
+        height: 11rem;
+      }
     }
   }
 
@@ -52,7 +59,7 @@
   footer {
     ul {
       width: 90%;
-      height: 8vh;
+      height: 10vh;
 
       i {
         font-size: 2.3rem;
@@ -61,9 +68,9 @@
     }
 
     h3 {
-      width: 40%;
+      width: 20%;
       font-size: 1rem;
-      padding-right: 0.5rem;
+      padding-right: 0.2rem;
       padding-top: 0.8rem;
     }
   }
