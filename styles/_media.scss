@@ -26,6 +26,7 @@
 
   .container {
     > div {
+      height: 180px;
       &:nth-of-type(1) {
         font-size: 3.5rem;
         padding-left: 2rem;

@@ -342,6 +342,9 @@ footer ul h3 {
     width: 10rem;
     height: 11rem;
   }
+  .container > div {
+    height: 180px;
+  }
   .container > div:nth-of-type(1) {
     font-size: 3.5rem;
     padding-left: 2rem;
