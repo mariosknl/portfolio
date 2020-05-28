@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #586f7c;
+  background-color: #6B7A85;
   height: 6rem;
   position: relative;
 }
@@ -144,7 +144,7 @@ main h3 {
 
 .container > div:nth-of-type(9) mark {
   font-size: 2.5rem;
-  background-color: #586f7c;
+  background-color: #6B7A85;
   border-radius: 5px;
 }
 
@@ -154,7 +154,7 @@ main h3 {
 
 .bg2 {
   background-image: url(../pics/mitchell-luo-i1O_Hr6cbWc-unsplash.jpg);
-  color: #d3d0cb;
+  color: #ECE9E4;
 }
 
 .main-container {
@@ -307,7 +307,7 @@ footer ul {
 }
 
 footer ul a {
-  color: #d3d0cb;
+  color: #ECE9E4;
 }
 
 footer ul i {
@@ -438,6 +438,6 @@ a {
 }
 
 body {
-  background-color: #586f7c;
+  background-color: #6B7A85;
 }
 /*# sourceMappingURL=style.css.map */
