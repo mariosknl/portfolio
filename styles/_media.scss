@@ -66,13 +66,13 @@
         font-size: 2.3rem;
         left: 150%;
       }
-    }
-
-    h3 {
-      width: 20%;
-      font-size: 1rem;
-      padding-right: 0.2rem;
-      padding-top: 0.8rem;
+      
+      h3 {
+        width: 20%;
+        font-size: 1rem;
+        padding-right: 0.2rem;
+        padding-top: 0.8rem;
+      }
     }
   }
 }
@@ -100,16 +100,53 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    img {
+      width: 9rem;
+      height: 11rem;
+    }
+
+    .right-side {
+      bottom: 10rem;
+    }
+  }
   .container {
     > div {
+      &:nth-of-type(1) {
+        h1 {
+          font-size: 2.3rem;
+        }
+      }
+      &:nth-of-type(4) {
+        h3 {
+          font-size: 2.8rem;
+        }
+        i {
+          font-size: 3rem;
+        }
+      }
       &:nth-of-type(6) {
-        font-size: 4.8rem;
+        font-size: 3.8rem;
       }
 
       &:nth-of-type(9) {
         font-size: 4.2rem;
       }
     }
+  }
+
+  footer {
+    ul {
+    i {
+      font-size: 3rem;
+      margin-right: 1rem;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+      margin-left: 2rem;
+    }
+  }  
   }
 }
 

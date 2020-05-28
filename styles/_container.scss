@@ -35,8 +35,14 @@
         text-decoration: underline;
         font-size: 4rem;
       }
+      ul {
+        list-style: none;
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+      }
       i {
-        font-size: 3rem;
+        font-size: 5rem;
       }
     }
 
@@ -57,8 +63,8 @@
         border-radius: 5px;
       }
     }
-    }
   }
+}
 
   .bg1 {
     background-image: url(../pics/augustine-wong-DRF3Nu-1wNE-unsplash.jpg);
@@ -68,4 +74,4 @@
     background-image: url(../pics/mitchell-luo-i1O_Hr6cbWc-unsplash.jpg);
     color: $text-color;
   }
-}
+
