@@ -14,22 +14,23 @@
   }
 
   .profile {
-    position: absolute;
+    position: relative;
     left: 5%;
     top: 20%;
   }
 
   img {
     border-radius: 50%;
-    width: 9rem;
+    width: 10rem;
+    height: 11rem;
   }
 
   .right-side {
     display: flex;
     justify-content: flex-end;
     font-size: 4.5rem;
-    position: absolute;
-    top: 0.3em;
+    position: relative;
     right: 8rem;
+    bottom: 9.5rem;
   }
 }
