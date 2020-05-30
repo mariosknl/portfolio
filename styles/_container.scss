@@ -1,10 +1,11 @@
 .container {
-  width: 105%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px;
 
   > div {
+    width: 100%;
     height: 210px;
     background-size: cover;
     background-attachment: fixed;
@@ -60,7 +61,7 @@
 
       mark {
         font-size: 2.5rem;
-        background-color: $primary-color;
+        background-color: $text-color;
         border-radius: 5px;
       }
     }

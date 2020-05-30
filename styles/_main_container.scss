@@ -1,5 +1,5 @@
 .main-container {
-  width: 100%;
+  width: 90%;
   position: relative;
   padding-top: 2rem;
 
@@ -10,7 +10,7 @@
     height: 18.7rem;
     border-radius: 14px;
     position: relative;
-    left: 5%;
+    left: 10%;
     background-color: $card-color;
     margin-bottom: 2.5rem;
     -webkit-box-shadow: 0 0 9px 3px rgba(57, 62, 65, 1);
@@ -18,7 +18,7 @@
     box-shadow: 0 0 9px 3px rgba(57, 62, 65, 1);
 
     img {
-      width: 50%;
+      width: 60%;
       height: 18.7rem;
       border-top-left-radius: 14px;
       border-bottom-left-radius: 14px;
@@ -26,8 +26,7 @@
     }
 
     p {
-      right: 8%;
-      font-size: 3rem;
+      font-size: 2.6rem;
       position: relative;
       top: 40%;
 
