@@ -11,89 +11,607 @@
   gtag('config', 'UA-167903370-1');
   </script>
   <meta charset="UTF-8">
+  <meta name="Description" content="Portfolio">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+  <link href="style.css">
+  <link
+  rel="apple-touch-icon"
+  sizes="76x76"
+  href="./assets/img/apple-icon.png"
+/>
+  <link
+  rel="stylesheet"
+  href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css">
   <title>Portfolio</title>
 
 </head>
-<body>
-<nav>
-  <ul class="navbar">
-    <li class="profile"><img src="./pics/IMG_6766.jpg" alt=""></li>
-    <ul class="right-side">
-      <li><a href="https://about.me/mariosknl">About</a></li>
-      <li><a href="mailto:mariosknl@outlook.com">mariosknl@outlook.com</a></li>
-    </ul>
-  </ul>
-</nav>
-  <div class="container">
-    <div class="bg1">
-        <h1>Welcome onboard...</h1>
-    </div>
-    <div class="bg1">
-      
-    </div>
-    <div class="bg1"></div>
-    <div class="bg2">
-      <h3>Social Links</h3>
-      <ul class="social-links">
-        <li><a href="https://github.com/mariosknl" target="_blank"><i class="fab fa-github-square"></i></a></li>
-        <li><a href="https://twitter.com/MariosKnl" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-        <li><a href="https://linkedin.com/in/marios-kanellopoulos" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-      </ul>
-    </div>
-    <div class="bg2"></div>
-    <div class="bg1 web-developer"><span>I'm Marios, full-stack Web Developer</span></div>
-    <div class="bg2"></div>
-    <div class="bg2"></div>
-    <div class="bg1"><h4>Every <mark>solution</mark> has its own <mark>problem.</mark> <br> Let's talk about <mark>problems</mark> now.</h4></div>
-    <div class="bg2"></div>
-  </div>
-  <main>
-    <div class="main-container">
-      <h3>My Work</h3>
-      <div class="images">
-        <a href="https://github.com/mariosknl/Project_Bootstrap"><img src="./pics/bootstrap.png" alt="bootstrap-image" target="_blank"></a>
-        <a href="https://raw.githack.com/mariosknl/Project_Bootstrap/feature-branch/index.html" target="blank"><p>Newsweek clone with Bootstrap</p></a><br><br>
+<body class="text-gray-800 antialiased">
+  <!-- Navbar -->
+  <nav
+    class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
+  >
+    <div
+      class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+    >
+      <div
+        class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+      >
+        <h1
+          class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+          >Marios Kanellopoulos</
+        ><button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button"
+          onclick="toggleNavbar('example-collapse-navbar')"
+          aria-label="menu"
+        >
+          <i class="text-white fas fa-bars"></i>
+        </button>
       </div>
-      <div class="images">
-        <a href="https://github.com/mariosknl/private-events"><img src="./pics/private_events.png" alt="private-events-image" target="_blank"></a>
-        <a href="https://stormy-thicket-33445.herokuapp.com/" target="_blank"><p>Private Events - Ruby on Rails Project</p></a><br><br>
-      </div>
-      <div class="images">
-        <a href="https://github.com/mariosknl/capstone_project_online_music_store"><img src="./pics/online_music_store.png" alt="online-music-store-image" target="_blank"></a>
-        <a href="https://inspiring-lamport-7116de.netlify.app/" target="_blank"><p>Online Music Store - HTML & SASS</p></a><br><br>
-      </div>
-      <div class="images">
-        <a href="https://hackernoon.com/css-layout-basics-html5-and-css3-elements-positioning-wmdj36qa"><img src="./pics/trust_your_struggle.jpeg" alt="hackernoon article"></a>
-        <a href="https://hackernoon.com/css-layout-basics-html5-and-css3-elements-positioning-wmdj36qa" target="_blank"><p>HTML5 & CSS3: Positioning of Elements</p></a><br><br>
-      </div>
-
-      <h3>Skills - Mindset</h3>
-      <div class="skills">
-        <ul>
-          <li class="heading">Glad to be useful</li><li class="li-text">If you chose me for anything, be sure it will be done in time.</li>
-          <li class="heading">Challenged while working under pressure</li><li class="li-text">Pressure makes me feel productive and creative.</li>
-          <li class="heading">Team Member</li><li class="li-text">Working alone may do the job but teams make it better and faster.</li>
-          <li class="heading">People's person</li><li class="li-text">I like being surrounded by people. Relationship matters to me.</li>
-          <li class="heading">Trustworthy</li><li class="li-text">You can count on me if that's something you are looking for.</li>
-          <li class="heading">Always on Time</li><li class="li-text">Time matters for everyone so I'm not here to waste anyone's time.</li>
+      <div
+        class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+        id="example-collapse-navbar"
+      >
+        
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <!-- Icon 1 -->
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://twitter.com/MariosKnl" rel="noopener" target="_blank" aria-label="twitter account"
+              ><i
+                class="lg:text-gray-300 text-gray-500 fab fa-twitter fa-3x leading-lg"
+              ></i
+              ><span class="lg:hidden inline-block ml-2">Tweet</span></a
+            >
+          </li>
+          <!-- Icon 2 -->
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://github.com/mariosknl" rel="noopener" target="_blank" aria-label="github account"
+              ><i
+                class="lg:text-gray-300 text-gray-500 fab fa-github fa-3x leading-lg"
+              ></i
+              ><span class="lg:hidden inline-block ml-2">Github</span></a
+            >
+          </li>
+          <!-- Icon 3 -->
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://www.linkedin.com/in/marios-kanellopoulos/" rel="noopener" target="_blank" aria-label="linkedin account"
+              ><i
+                class="lg:text-gray-300 text-gray-500 fab fa-linkedin fa-3x leading-lg "
+              ></i
+              ><span class="lg:hidden inline-block ml-2">Linkedin</span></a
+            >
+          </li>
+          <!-- Icon 4 -->
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="mailto:mariosknl@outlook.com" rel="noopener" target="_blank" aria-label="send email"
+              ><i
+                class="lg:text-gray-300 text-gray-500 fas fa-envelope-square fa-3x leading-lg "
+              ></i
+              ><span class="lg:hidden inline-block ml-2">Email</span></a
+            >
+          </li>
         </ul>
       </div>
     </div>
-  </main>
-  <footer>
-    <ul>
-      <li><a href="https://github.com/mariosknl" target="_blank"><i class="fab fa-github-square"></i></a></li>
-      <li><a href="https://twitter.com/MariosKnl" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-      <li><a href="https://linkedin.com/in/marios-kanellopoulos" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-      <h3>Photos by - Mitchell Luo && Augustine Wong</h3>
-      <h3>Font-Awesome Icons</h3>
-      <h3>Top Layout Idea by Brad Traversy</h3>
-    </ul>
+  </nav>
+  <!-- Main Area -->
+  <main>
+    <!-- Hero -->
+    <div
+      class="relative pt-16 pb-32 flex content-center items-center justify-center"
+      style="min-height: 95vh;"
+    >
+      <div
+        class="absolute top-0 w-full h-full bg-top bg-cover"
+        style='background-image: url("./images/main_img.jpg");'
+      >
+        <span
+          id="blackOverlay"
+          class="w-full h-full absolute opacity-50 bg-black"
+        ></span>
+      </div>
+      <div class="container relative mx-auto mt-8" data-aos="fade-in">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div>
+              <h1 class="text-white font-semibold text-5xl">
+                I'm Marios, a full-stack Web Developer
+              </h1>
+              <p class="mt-6 text-xl font-semibold text-gray-300">
+                Every <span class="bg-gray-300 text-gray-800 rounded px-2 text-2xl">solution</span> has its own <span class="bg-gray-300 text-gray-800 rounded px-2 text-2xl">problem</span>. <br> Let's talk about <span class="bg-gray-300 text-gray-800 rounded px-2 text-2xl">problems</span> now.
+              </p>
+              <a href="#projects" class="bg-transparent hover:bg-gray-500 text-white font-semibold hover:text-white p-4 border border-gray-500 hover:border-transparent rounded inline-block mt-4 cursor-pointer">Check out my work below...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+        style="height: 70px; transform: translateZ(0px);"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+    </div>
+    
+    <!-- Project Section -->
+    <section class="pt-20 pb-48" id="projects">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold">Check my projects...</h2>
+          </div>
+        </div>
+        <!-- Project Wrapper -->
+        <div class="flex flex-wrap">
+          <!-- Card 1 -->
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+            <div class="rounded-lg transform duration-500 hover:scale-125 hover:shadow-lg">
+              <img
+                alt="..."
+                src="./assets//img/music_artists.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 210px;"
+              />
+              <div class="pt-6 text-center">
+                <p class="text-xl font-bold">Music Artists</p>
+                <p class="mt-1 text-sm uppercase font-bold">
+                  React & Redux
+                </p>
+                <div class="mt-6">
+                  <a href="https://github.com/mariosknl/React-Redux-Music-Artists" rel="noopener" target="_blank">
+                  <button
+                    class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                    aria-label="github repository"
+                  >
+                    <i class="fab fa-github"></i></button
+                  >
+                </a>
+                <a href="https://react-redux-catalogue-of-statistics-git-routing.mariosknl.vercel.app/">
+                  <button
+                    class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                    aria-label="visit website"
+                  >
+                  <i class="fas fa-exclamation-triangle"></i></button
+                  >
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+            <div class="rounded-lg transform duration-500 hover:scale-125 hover:shadow-lg">
+              <img
+                alt="..."
+                src="./assets/img/weather_app.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 210px;"
+              />
+              <div class="pt-6 text-center">
+                <p class="text-xl font-bold">Javascript</p>
+                <p class="mt-1 text-sm uppercase font-bold">
+                  OpenWeatherMap API
+                </p>
+                <div class="mt-6">
+                  <a href="https://github.com/mariosknl/weather_app_javascript">
+                  <button
+                    class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                    aria-label="github repository"
+                  >
+                    <i class="fab fa-github"></i></button
+                  >
+                </a>
+                <a href="https://rawcdn.githack.com/mariosknl/weather_app_javascript/">
+                  <button
+                    class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                    aria-label="live link"
+                  >
+                    <i class="fas fa-exclamation-triangle"></i>
+                  </button>
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"data-aos="flip-right">
+            <div class="rounded-lg transform duration-500 hover:scale-125 hover:shadow-lg">
+              <img
+                alt="..."
+                src="./assets/img/online_music_store.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 230px;"
+              />
+              <div class="pt-6 text-center">
+                <p class="text-xl font-bold">eMusic Store</p>
+                <p class="mt-1 text-sm uppercase font-bold">
+                  HTML & SASS
+                </p>
+                <div class="mt-6">
+                  <a href="https://github.com/mariosknl/Online_Music_Store-Front-End-Project">
+                  <button
+                    class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                    aria-label="github repository"
+                  >
+                  <i class="fab fa-github"></i></button
+                  >
+                </a>
+                <a href="https://inspiring-lamport-7116de.netlify.app/">
+                  <button
+                    class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                    aria-label="live link"
+                  >
+                    <i class="fas fa-exclamation-triangle"></i></button
+                  >
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 4 -->
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"data-aos="flip-right">
+            <div class="rounded-lg transform duration-500 hover:scale-125 hover:shadow-lg">
+              <img
+                alt="..."
+                src="./assets//img/newsweek.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 230px;"
+              />
+              <div class="pt-6 text-center">
+                <p class="text-xl font-bold">Newsweek Page</p>
+                <p class="mt-1 text-sm uppercase font-bold">
+                  HTML & Bootstrap
+                </p>
+                <div class="mt-6">
+                  <a href="https://github.com/mariosknl/Project_Bootstrap">
+                  <button
+                    class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                    aria-label="github repository"
+                  >
+                  <i class="fab fa-github"></i></button
+                  >
+                </a>
+                <a href="https://raw.githack.com/mariosknl/Project_Bootstrap/feature-branch/index.html">
+                  <button
+                    class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                    aria-label="live link"
+                  >
+                    <i class="fas fa-exclamation-triangle"></i></button
+                  >
+                  </button>
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Skills & Mindset -->
+    <section class="relative py-20">
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-right">
+            <img
+              alt="..."
+              class="max-w-full rounded-lg shadow-lg"
+              src="./images/arrow.jpg"
+            />
+          </div>
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
+            <div class="md:pr-12">
+              <small class="text-gray-700">About me...</small>
+              <h3 class="text-4xl uppercase font-bold">Skills & Mindset</h3>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                Always here to give solutions. Team member who respects everyone's effort. Together we thrive. Let's make it happen no matter how tough it might be. 
+              </p>
+              <ul class="list-none mt-6">
+                <!-- Skill 1 -->
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-lg font-semibold inline-block py-1 px-2  mr-3"
+                        ><i class="fas fa-users fa-2x"></i
+                      ></span>
+                    </div>
+                    <div>
+                      <p class="text-xl font-semibold text-gray-600">
+                        Team Member
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <!-- Skill 2 -->
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-lg font-semibold inline-block py-1 px-2  mr-3"
+                        ><i class="fas fa-dumbbell fa-2x"></i
+                      ></span>
+                    </div>
+                    <div>
+                      <p class="text-xl font-semibold text-gray-600">Hard Worker</p>
+                    </div>
+                  </div>
+                </li>
+                <!-- Skill 3 -->
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-lg font-semibold inline-block py-1 px-2 mr-3"
+                        ><i class="fas fa-exclamation-triangle fa-2x"></i></span>
+                    </div>
+                    <div>
+                      <p class="text-xl font-semibold text-gray-600">Always on Time</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Header -->
+    <section class="pb-20 relative block bg-black text-white">
+      <div
+        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px; transform: translateZ(0px);"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 py-20">
+        <div class="flex flex-wrap text-center justify-center">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold text-white">Contact Me</h2>
+            <p class="text-lg leading-relaxed mt-4 mb-4">
+              Put the potentially record low maximum sea ice extent tihs year
+              down to low ice. According to the National Oceanic and
+              Atmospheric Administration, Ted, Scambos.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap mt-12 justify-center">
+          <div class="w-full lg:w-3/12 px-4 text-center">
+            <div
+              class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+            >
+            <a href="https://github.com/mariosknl" rel="noopener" target="_blank">
+              <i class="fab fa-github text-xl"></i>
+            </a>
+            </div>
+          </div>
+          <div class="w-full lg:w-3/12 px-4 text-center">
+            <div
+              class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+            >
+            <a href="https://twitter.com/MariosKnl" rel="noopener" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            </div>
+            
+          </div>
+          <div class="w-full lg:w-3/12 px-4 text-center">
+            <div
+              class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+            >
+            <a href="https://www.linkedin.com/in/marios-kanellopoulos/" rel="noopener" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Form -->
+    <section class="relative block py-24 lg:pt-0 bg-black">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+          <div class="w-full lg:w-6/12 px-4">
+            <div
+              class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300" data-aos="fade-up-right"
+            >
+              <form class="flex-auto p-5 lg:p-10" name="contact" method="POST" data-netlify="true">
+                <p class="text-2xl font-semibold uppercase">Want to hire me?</p>
+                <p class="leading-relaxed mt-1 mb-4 text-gray-600">
+                  Complete this form and I will contact you immediately. 
+                </p>
+                <div class="relative w-full mb-3 mt-8">
+                  <label
+                    class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    for="full-name"
+                    >Full Name
+                  <input
+                    type="text"
+                    class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    placeholder="Full Name"
+                    style="transition: all 0.15s ease 0s;"
+                  />
+                  </label
+                  >
+                </div>
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    for="email"
+                    >Email
+                  <input
+                    type="email"
+                    class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    placeholder="Email"
+                    style="transition: all 0.15s ease 0s;"
+                  />
+                  </label>
+                </div>
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    for="message"
+                    >message
+                  <textarea
+                    rows="4"
+                    cols="80"
+                    class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    placeholder="Type a message..."
+                  ></textarea>
+                  </label
+                  >
+                </div>
+                <div class="text-center mt-6">
+                  <button
+                    class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                    style="transition: all 0.15s ease 0s;"
+                    aria-label="send an email"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="relative bg-gray-300 pt-8 pb-6">
+    <div
+      class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      style="height: 80px; transform: translateZ(0px);"
+    >
+      <svg
+        class="absolute bottom-0 overflow-hidden"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        version="1.1"
+        viewBox="0 0 2560 100"
+        x="0"
+        y="0"
+      >
+        <polygon
+          class="text-gray-300 fill-current"
+          points="2560 0 2560 100 0 100"
+        ></polygon>
+      </svg>
+    </div>
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4">
+          <p class="text-3xl font-semibold">Let's keep in touch!</p>
+          <p class="text-lg mt-0 mb-2 text-gray-700">
+            Find me on any of these platforms
+          </p>
+          <div class="mt-6">
+            <button
+              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button"
+              aria-label="twitter account"
+            >
+            <a href="https://twitter.com/MariosKnl" rel="noopener" target="_blank">
+              <i class="flex fab fa-twitter"></i>
+            </a>
+              </button>
+            <button
+              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button"
+              aria-label="github account"
+            >
+            <a href="https://github.com/mariosknl" rel="noopener" target="_blank">
+              <i class="flex fab fa-github"></i>
+            </a>
+            </button>
+            <button
+              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button"
+              aria-label="linkedin"
+            >
+            <a href="https://www.linkedin.com/in/marios-kanellopoulos/" rel="noopener" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            </button>
+          </div>
+        </div>
+        
+      <hr class="my-6 border-gray-400" />
+      <div
+        class="flex flex-wrap items-center md:justify-between justify-center"
+      >
+        <div class="w-full px-4 mx-auto text-center">
+          <div class="text-sm text-gray-800 font-semibold py-1">
+            Copyright © 2020 Marios Kanellopoulos
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
-  <script src="https://kit.fontawesome.com/526bcd4356.js" crossorigin="anonymous"></script>
 </body>
+<script>
+  function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle("hidden");
+    document.getElementById(collapseID).classList.toggle("block");
+  }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
+<script>
+  AOS.init({
+    delay: 200,
+    duration: 1200,
+    once: false
+  })
+</script>
 </html>
