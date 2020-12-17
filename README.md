@@ -11,6 +11,7 @@ This is my personal portfolio created with Tailwind CSS. We can find details abo
 
 - HTML
 - Tailwind CSS
+- AOS Javascript
 
 # Live Version
 
