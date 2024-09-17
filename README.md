@@ -5,7 +5,7 @@ This is my personal portfolio created with Tailwind CSS. We can find details abo
 ![Landing Page](assets/img/homepage.png)
 ![Projects](assets/img/projects.png)
 ![Projects](assets/img/work.png)
-![Skills](assets/img/skills.png)
+![Skills](assets/img/skillset.png)
 
 # BUILD WITH
 
